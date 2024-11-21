@@ -4,11 +4,11 @@ import ThemeToggle from "../Components/ThemeToggle";
 import { useState } from "react";
 
 export default function Header() {
-    const [isOpen, setIsOpen] = useState(false);
+    // const [isOpen, setIsOpen] = useState(false);
 
-    const toggleMenu = () => {
-    setIsOpen(!isOpen);
-    };
+    // const toggleMenu = () => {
+    // setIsOpen(!isOpen);
+    // };
   return (
     <header className="bg-slate-400 dark:bg-gray-800 text-black dark:text-white shadow-md sticky top-0 z-50 ">
       <div className="flex container mx-auto flex justify-between items-center py-4 px-6">
@@ -91,7 +91,7 @@ export default function Header() {
           </Link>
             </li>
             <li>
-              <ThemeToggle />
+              {/* <ThemeToggle /> */}
             </li>
           </ul>
         </div>

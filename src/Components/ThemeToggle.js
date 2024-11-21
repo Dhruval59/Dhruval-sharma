@@ -26,9 +26,9 @@ export default function ThemeToggle() {
       className="rounded-full"
     >
       {theme === "dark" ? (
-        <Image src="/lucide-sun-icon.svg" width={20} height={20} />  // Show Sun icon for Light mode
+        <Image src="/lucide-sun-icon.svg" width={20} alt="sun-icon" height={20} />  // Show Sun icon for Light mode
       ) : (
-        <Image src="/lucide-moon-icon.svg"  width={20} height={20} />  // Show Moon icon for Dark mode
+        <Image src="/lucide-moon-icon.svg"  width={20} alt="moon-icon" height={20} />  // Show Moon icon for Dark mode
       )}
     </button>
   );

@@ -23,10 +23,10 @@ export default function Page() {
       </div>
 
       {/* Contact Section */}
-      <div id="contact">
+      {/* <div id="contact"> */}
         {/* <h2 className="text-2xl font-semibold text-center mb-4">Contact</h2> */}
-        <Contact />
-      </div>
+        {/* <Contact /> */}
+      {/* </div> */}
 
       {/* Footer Section */}
       <Footer />
