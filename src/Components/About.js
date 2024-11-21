@@ -5,7 +5,7 @@ export default function About() {
           <h1 className="text-3xl font-bold mb-6">About Me</h1>
           <div className="text-lg">
           <p>
-          I'm <span className="font-bold">Dhruval Sharma</span>, a dedicated Site Reliability Engineer specialized in cloud technologies, predominantly AWS. With a strong focus on automation and problem-solving, I thrive in building efficient and scalable systems.
+          I am <span className="font-bold">Dhruval Sharma</span>, a dedicated Site Reliability Engineer specialized in cloud technologies, predominantly AWS. With a strong focus on automation and problem-solving, I thrive in building efficient and scalable systems.
         </p>
         <p className="text-lg mb-4">
           I bring expertise in <b>Python</b>, <b>Java</b>, and cloud tools like <b>Terraform</b> and <b>Kubernetes</b>, coupled with a knack for fostering seamless <b>CI/CD</b> pipelines.

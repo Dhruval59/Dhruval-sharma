@@ -1,7 +1,6 @@
 "use client";  // This marks the file as a client component
-
+import Image from "next/image";
 import { useState, useEffect } from "react";
-import { FaSun, FaMoon } from "react-icons/fa";  // Importing icons from React Icons
 
 export default function ThemeToggle() {
   const [theme, setTheme] = useState(
@@ -27,9 +26,9 @@ export default function ThemeToggle() {
       className="rounded-full"
     >
       {theme === "dark" ? (
-        <img src="lucide-sun-icon.svg" size={20} />  // Show Sun icon for Light mode
+        <Image src="/lucide-sun-icon.svg" width={20} height={20} />  // Show Sun icon for Light mode
       ) : (
-        <img src="lucide-moon-icon.svg"  size={20} />  // Show Moon icon for Dark mode
+        <Image src="/lucide-moon-icon.svg"  width={20} height={20} />  // Show Moon icon for Dark mode
       )}
     </button>
   );
